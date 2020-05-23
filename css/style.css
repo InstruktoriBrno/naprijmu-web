@@ -1,0 +1,393 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
+    font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Alegreya Sans SC', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.relative-envelope {
+    position: relative;
+}
+
+ul.navbar-nav {
+    vertical-align: middle;
+    color: white;
+    text-shadow:
+    -2px -2px 3px #aaa,
+    2px -2px 3px #aaa,
+    -2px 2px 3px #aaa,
+    2px 2px 3px #aaa;  
+}
+
+.scroll-down-button-wrapper {
+    position: absolute;
+    bottom: 20px;
+    left: 30%;
+    right: 30%;
+    z-index: 1000;
+    text-align: center;
+}
+
+
+.scroll-down-button {
+    display: inline-block;
+}
+
+.navbar-brand {
+    display: block;
+    font-size: 24px;
+    visibility: hidden;
+    padding: 0px;
+    height: 48px;
+}
+
+.brand-label {
+    float: left;
+    padding: 15px;
+}
+
+img.brand-logo {
+    float: left;
+    height: 48px;
+    width: 48px;
+    margin-left: 15px;
+    border: none;
+}
+
+button.navbar-toggle {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    padding-right: 15px;
+    height: 48px;
+    border: none;
+    border-radius: 0;
+}
+
+nav.top-nav-collapse {
+    min-height: 0;
+}
+
+nav.top-nav-collapse .navbar-brand {
+    visibility: visible;
+}
+
+.navbar-right.navbar-main-collapse.collapse.in {
+    margin-right: 0px;
+}
+
+ul.nav.navbar-nav > li.selected > a {
+    border: none;
+    border-radius: 0;
+}
+    
+@media (max-width: 767px) {
+    
+    .navbar-brand {
+        visibility: visible;
+    }
+    
+    .brand-label {
+        font-size: 24px;
+    }
+    
+    .header-decorations {
+        display: none;
+    }
+
+    ul.navbar-nav {
+        text-shadow: none; 
+        font-size: 16px;
+    }
+
+    .naprijmu-label {
+        font-size: 26px;    
+    }
+    
+    .motto-bubble {
+        font-size: 9px; 
+    } 
+}
+
+@media (min-width: 768px) {
+    ul.navbar-nav {
+        font-size: 24px;
+    }
+
+    .header-decorations {
+        width: 360px;
+    }
+
+    .naprijmu-label {
+      font-size: 36px;    
+    }
+
+    .motto-label {
+      font-size: 12px;    
+    }
+}
+
+@media (min-width: 992px) {
+    .header-decorations {
+        width: 500px;
+    }
+
+    .naprijmu-label {
+      font-size: 52px;    
+    }
+    
+    .motto-label {
+      font-size: 18px;    
+    }
+}
+
+@media (min-width: 1200px) {
+    .header-decorations {
+        width: 700px;
+    }
+
+    .naprijmu-label {
+      font-size: 68px;    
+    }
+
+    .motto-label {
+      font-size: 24px;    
+    }
+}
+
+
+@media (min-width: 1600px) {
+    .header-decorations {
+        width: 1100px;
+    }
+
+    .naprijmu-label {
+      font-size: 108px;    
+    }
+
+    .motto-label {
+      font-size: 38px;    
+    }
+}
+
+.header-decorations {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    position: absolute;
+    top: 20px;
+    left: 1%;
+}
+
+.header-decorations-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+img.transparent-square {
+    width: 100%;
+}
+
+img.ruce {
+    position: absolute;
+    top: 7%;
+    left: 25%;
+    width: 50%;
+    opacity: 0.7;
+}
+
+div.naprijmu-bubble {
+    position: absolute;
+    color: rgba(255,255,255,0.7);
+    top: 33%;
+    left: 0%;
+    width: 38%;
+    height: 38%;
+    background-color: rgba(43,118,103,0.7);
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+div.motto-bubble {
+    position: absolute;
+    color: rgba(255,255,255,0.7);
+    top: 54%;
+    left: 32%;
+    width: 30%;
+    height: 30%;
+    background-color: rgba(2,48,48, 0.7);
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.vertically-centered-text-wrapper {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.vertically-centered-text {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.bubble-menu-item {
+    display: inline-block;
+    color: white;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.bubble-menu-item:hover,
+.bubble-menu-item:active {
+    display: inline-block;
+    color: white;
+    background-color: rgb(200,200,200);
+    border-radius: 50%;
+}
+
+.menu-bubble-uvod {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(2,48,48,0.7);
+}
+
+.menu-bubble-info {
+    width: 80px;
+    height: 80px;
+    background-color: rgba(2,48,48,0.7);
+}
+
+.menu-bubble-tym {
+    width: 55px;
+    height: 55px;
+    background-color: rgba(2,48,48,0.7);
+}
+
+.navbar > nav > li > a.menu-bubble-prihlaska {
+    width: 100px;
+    height: 100px;
+    padding-top: 80px;
+    background-color: rgba(2,48,48,0.7);
+}
+
+.menu-bubble-kontakt {
+    width: 65px;
+    height: 65px;
+    background-color: rgba(2,48,48,0.7);
+}
+
+.navbar-right {
+    margin-right: 20px;
+}
+
+
+#team p { margin: 0; }
+
+.italic {
+    font-style: italic;
+}
+
+.left { float: left; }
+.right { float: right; }
+.cleaner { clear: both; }
+
+.team-left { text-align: left; }
+.team-right { text-align: right; }
+
+.team-right { text-align: right; vertical-align: middle; }
+
+.organizer {
+    width: 150px;
+    height: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #3c6b0a;
+    margin: 20px 20px 0px 20px;
+}
+
+@media(min-width:768px) {
+	.organizer {
+	    width: 200px;
+	    height: auto;
+	}
+}
+
+@media(min-width:1199px) {
+	.organizer {
+	    width: 350px;
+	    height: auto;
+	}
+}
+
+
+#footer-sova {
+    float: left;
+    width: 125px;
+    height: 150px;
+    margin: 0 30px 0 0;
+}
+
+#footer {
+    padding: 50px 0 0 0 ;
+}
+
+#footer p {
+    margin: 0;
+    font-size: 100%;
+}
+
+#contact p {
+    text-align: left;
+}
+
+.circle-separator {
+    color: rgba(2,48,48, 0.7);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 24px;
+}
+
+p.align-left {
+    text-align: left;
+}
+
+.section-left-aligned-content {
+    display: inline-block;
+    text-align: left;
+}
+
+.org-text p {
+    display: inline-block;
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.org-text h3 {
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.organizer-row {
+    margin-bottom: 20px;
+}
+
+.info-table > .row {
+    margin-bottom: 15px;
+}
+
+.orange {
+    color: rgb(72,115,115);
+}
